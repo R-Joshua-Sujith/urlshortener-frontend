@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color:rgb(37, 87, 144);
+    gap:30px;
+}
+
+.logout{
+    padding:4px;
+    border-bottom: 2px solid rgb(37, 87, 144);
+    cursor: pointer;
+}
+
+.login-container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    margin:0px auto;
+    width:max-content;
+  
+    border: 2px solid white;
+    margin-bottom:100px;
+  }
+  
+  h1{
+    text-align: center;
+    color: white;
+  }
+  
+  .tableHeading{
+    color: rgb(37, 87, 144);
+width:150px;
+  }
+
+  .full{
+    width:350px;
+    color: rgb(37, 87, 144);
+  }
+
+  .image{
+    height: 25px;
+    width:25px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  @media  screen and (max-width:800px) {
+    .tableHeading{
+      width: 130px;
+    }
+    .full{
+        width:130px;
+    }
+  }
+  
+  
+  @media  screen and (max-width:600px) {
+    .tableHeading{
+        font-size: 12px;
+      width: 80px;
+    }
+    .full{
+        width:130px;
+    }
+  }
+
+  .short{
+    color: rgb(37, 87, 144);
+    cursor:pointer;
+    text-decoration: underline;
+  }
